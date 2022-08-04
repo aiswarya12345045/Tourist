@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My India</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <!-- Header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>   <!--The <div> tag defines a division or a section in an HTML document.-->
+
+        <a href="#" class="logo"><span>W</span>orthy<span> G</span>o</a>      <!--We can use href="#top" or href="#" to link to the top of the current page-->
+        <nav class="navbar">        <!--tag is nav, but class is navbar.    The <nav> tag defines a set of navigation links.-->
+            <a href="#home">Home</a>
+            <a href="#Bookings">Bookings</a>
+            <a href="#Packages">Packages</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>  
+        </div>
+
+
+        <form action="" class="search-bar-container">  <!--The <form> tag is used to create an HTML form for user input.-->
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!-- Header section ends -->
+
+    
+    <!-- login form container -->
+    <div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>    <!--The <i> and <span> elements are widely used to add icons.-->
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forgot password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+    
+
+    <!-- Home section starts -->
+    <section class="home" id="home">    <!--<section> tag means that the content inside relates to a single theme-->
+
+        <div class="content">           <!--The HTML <div> tag is used to group the large section of HTML elements together.-->
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!-- Home section ends -->
+
+    <!-- Book section starts -->
+    <section class="book" id="book">        <!--<span> tag is used to: -->
+        <h1 class="heading">        <!--To change the language of a part of the text.-->
+                                    <!--To change the color, font, background of a part of text using CSS-->
+            <span>b</span>          <!--To apply the scripts to the particular part of the text.-->
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/book-img.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leavings</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+    </section>
+    <!-- Book section ends -->
+
+    <!-- Packages section starts -->
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <!-- States -->
+            <div class="box">
+                <img src="images/p-1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> andhra pradesh </h3>
+                    <p>Varied wildlife, rich history, vivid culture, majestic architecture make Andhra Pradesh a destination of endless surprises. Welcoming visitors with innumerable charming facets Andhra Pradesh captivates the eager traveller, looking for a wonderful holiday experience.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>     <!--fas - solid icons-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>     <!--far - regular icons-->
+                    </div>
+                    <div class="price"> $50.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> arunachal pradesh </h3>
+                    <p>Arunachal Pradesh is a wonderful state to spend your time in. A perfect place to relieve from your stress and connect more with nature. It is in the northeastern part of India. The name literally means “Land of dawn-lit mountains</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> assam </h3>
+                    <p>Assam tourism offers places to visit like historical monuments, temples and sightseeing places like kamakhya Temple, Umananda Temple, Madan Kamdev, Rang Ghar. For nature lovers, Assam has national parks like Kaziranga National Park, Pobitora Wildlife Sanctuary, Manas National Park to name a few.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $150.00<span>$320.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> bihar </h3>
+                    <p>From Age-old Viharas And Majestic Hindu Temples To Mystic Hill Caves (Barabar Caves) And Intriguing Museums (Patna British Museum), The Tourist Places In Bihar Speak A Lot About The Glorious Prehistoric And Historic Eras Of The Country.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> chhatisgarh </h3>
+                    <p>Chhattisgarh is an uniquely Indian experience. Home to the country's widest waterfalls, caves, lush green forests, ancient monuments, rare wild life, exquisitely curved temples, Buddhist sites and hill plateaus. Chhattisgarh boasts of more than 80% of bio diversity that is not found anywhere across the country.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $100.00<span>$140.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> goa </h3>
+                    <p>The state of Goa, in India, is famous for its beaches and places of worship. Tourism is its primary industry, and is generally focused on the coastal areas of Goa, with decreased tourist activity inland. North Goa is good for you if you like to be around large crowds and a convivial atmosphere all the time. On the other hand, if you prefer some alone time or a quiet walk on the beach or on the streets, south Goa is the place to be.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $120.00<span>$150.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-7.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> gujrat </h3>
+                    <p>Within Gujarat there are a wide variety of historic forts, palaces, mosques, temples, and places of historical importance in India's struggle for independence. Many of these palaces and forts have been converted into heritage hotels to keep tourists close to the vibrant history of Gujarat.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-8.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> haryana </h3>
+                    <p>Haryana is well known for its folk music, dance, handicrafts, pottery and different kinds of embroidery and weaving. The grand Suraj Kund Crafts Mela organized by Haryana Tourism displays the best of its handloom and handicrafts as well as the colourful culture of Haryana and other Indian states.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $40.00<span>$80.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-9.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> himachal pradesh </h3>
+                    <p>This is popularly renowned for its Himalayan landscapes and popular hill-stations. Many outdoor activities such as rock climbing, mountain biking, paragliding, ice-skating, trekking, rafting, and heli-skiing are popular tourist attractions in Himachal Pradesh.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $70.00<span>$110.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-10.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> jharkhand </h3>
+                    <p>The Land of Forests' as Jharkhand is famously called, is heaven for nature lovers. The unparalleled beauty of the state with majestic hills, scenic waterfalls, rich greenery and colorful culture makes your visit to the land memorable.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-11.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> karnataka </h3>
+                    <p>Karnataka is home to various forests, beaches, waterfalls, coffee plantations, lakes and all the bounties of nature. The state also boasts of historically significant monuments and structures that attract visitors from far and beyond.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $85.00<span>$130.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-12.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> kerela </h3>
+                    <p>Kerala is famous especially for its ecotourism initiatives and beautiful backwaters. Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00<span>$110.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-13.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> madhya pradesh </h3>
+                    <p>Madhya Pradesh has been home to cultural and spiritual heritage of almost all the religions. Innumerable monuments, intricately carved temples, stupas, forts and palaces are dotted all over the State.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $55.00<span>$95.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-14.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> maharashtra </h3>
+                    <p>Maharashtra has a large untapped tourism potential, with attractive tourist destinations which consists of beaches, forts, hill stations, heritage and sanctuaries. Western Ghats, in Maharashtra, is full of natural treasure and satisfies the several types of tourists.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $150.00<span>$200.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-15.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> manipur </h3>
+                    <p>A scenic hill-top panorama covered with stretches of vibrant wildflowers and the rare state flower, the Shirui lily, the Shirui hills are home to some rare birds and wildlife. An enchanting beauty not to be missed.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $45.00<span>$80.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-16.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> meghalaya </h3>
+                    <p>Meghalaya falls in one of the richest biodiversity areas in the world. The famed monsoons, the rich traditional festivals, and the dramatic terrain are just some of the many things this state is famous for.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $55.00<span>$80.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-17.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> mizoram </h3>
+                    <p>Mizoram is the seat of a rich tribal cultural extravaganza and is famous for its handicrafts. The town is blessed with exotic natural beauty.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $55.00<span>$80.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-18.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> nagaland </h3>
+                    <p>Nagaland is famous as the 'Land of Festivals'. With each tribe practising its own rituals and traditions, Nagaland is a state that has one major festival lined up for all months of a year.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $65.00<span>$100.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-19.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> odisha </h3>
+                    <p>Odisha is famous for its heritage sites and enthralling views. From beaches to pilgrimage sites, Odisha offers a lot of sightseeing opportunities to travellers from across the globe. Moreover, Puri Beach Festival and the Jagannath Rath Yatra attracts tons of tourists to Odisha yearly</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $70.00<span>$140.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-20.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> punjab </h3>
+                    <p>Punjab is also famous for its religious diversity as it was here many religious movements were initiated. The scenic landscape, rich history and famous religious sites are the most important reasons for increasing number of visits by tourists.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $60.00<span>$90.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-21.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> rajasthan </h3>
+                    <p>Rajasthan is known for its historical hill forts & palaces, it is claimed as the best place for tourism-related to palaces. Umaid Bhawan Palace: It is the largest Royal Palace in Rajasthan. It is also one of the largest private residences in the world.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-22.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> sikkim </h3>
+                    <p>Sikkim is a very attractive hilly area, which always attracts tourists with its amazing views. Sikkim is also world famous for Kanchenjunga, the world's third highest peak. In this state, nature has spent a lot of time in the state; tourists can see beautiful hills, lakes, etc here.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $45.00<span>$80.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-23.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> tamil nadu </h3>
+                    <p>Tamil Nadu is known for its beaches, ancient Tamil architecture, Anglo-Indian architecture, cultural festivals and is India's largest shopping destination.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $85.00<span>$110.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-24.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> telangana </h3>
+                    <p>Telangana is easily the best example for India's composite culture, pluralism and inclusiveness. Located on the uplands of Deccan plateau, Telangana is the link between the North and South of India.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-25.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> tripura </h3>
+                    <p>Tripura is famous for its cultivations, tea plantations, beautiful gardens, toy trains and much more. Being known for its breathtaking scenic view, this state is also popular for its tribe culture and food. There are numerous places to visit in Tripura.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $60.00<span>$90.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-26.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> uttar pradesh </h3>
+                    <p>Uttar Pradesh is a home of India's most visited sites, the Taj Mahal, and Hinduism's holiest city, Varanasi. Kumbh city, Prayagraj. Kathak, one of the eight forms of Indian classical dances, originated from Uttar Pradesh. Uttar Pradesh is at the heart of India, hence it is also known as The Heartland of India.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $85.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-27.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> uttarakhand </h3>
+                    <p>Uttarakhand is a state in the northern part of India. It is often referred to as the "Devbhumi" (literally 'Land of the Gods') due to its religious significance and numerous Hindu temples and pilgrimage sites found throughout the state. As a result, religious tourism forms a major portion of the tourism in the state.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $100.00<span>$140.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-28.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> west bengal </h3>
+                    <p>The beautiful state of West Bengal attracts a significant number of tourists every year as the state is jewelled with mesmerising landscapes, snow-clad mountains, gushing sea, blossoming tea gardens, enormous deltas, lush green forests, plentiful wildlife, ancient temples and magnificent British monuments.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $85.00<span>$110.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <!-- Union Territories-->
+            <div class="box">
+                <img src="images/p-29.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> andaman & nicobbar islands </h3>
+                    <p>Endowed with some of the most pristine and magnificent beaches that you can find within reach of the Bay of Bengal, the Andaman and Nicobar Islands is a thriving tourist destination. They are the perfect coastal destination that allows you to relax and muse over the turquoise-blue ocean, away from your busy lifestyle.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $140.00<span>$200.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-30.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> chandigarh </h3>
+                    <p>Apart from the city's architecture and buildings like Capitol Complex, High Court, Secretariat, Legislative Assembly and giant Open Hand Monument, it is also famous for its clean roads and greenery. Chandigarh is also credited of being the third cleanest city in the country under Swachh Bharat survey of 2018.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $65.00<span>$100.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-31.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> dadra & nagar haveli and daman & diu</h3>
+                    <p>The unmatched beauty of Dadra and Nagar Haveli is dotted distant hills, lush greenery, cascading waterfalls, rich culture and Portuguese architecture. When in Dadra and Nagar Haveli, tourists will get the opportunity to visit gardens, temples lakes, dam, museum, church and a lot more.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $100.00<span>$130.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-32.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> delhi </h3>
+                    <p>With a history that goes back many centuries, Delhi showcases an ancient culture and a rapidly modernising country. Dotted with monuments there is much to discover here. The seat of many powerful empires in the past, its long history can be traced in its many carefully-preserved monuments, ancient forts and tombs</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $130.00<span>$170.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-33.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> jammu & kashmir </h3>
+                    <p>Some major tourist attractions in Jammu and Kashmir are Srinagar, with its renowned Dal Lake and Mughal Gardens, Gulmarg, Pahalgam, Patnitop and Jammu. Every year, thousands of Hindu pilgrims visit holy shrines of Vaishno Devi and Amarnath which has had a significant impact on the state's economy.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $80.00<span>$110.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-34.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> lakshadweep </h3>
+                    <p>Foreign tourists are permitted to visit this island. This island is not inhabited by the tribes of Lakshadweep keeping it untouched and unspoilt. It makes a perfect honeymoon destination with picturesque views wherever you look.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $70.00<span>$100.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-35.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> puducherry </h3>
+                    <p>Puducherry, better known as Pondicherry, is a scenic and quaint town on the south-eastern part of the Indian Peninsula. With remnants of the French colonial past spread across the town's architecture and crystal clear beaches surrounding it, the city is among the most admirable destinations in South India.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $65.00<span>$90.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/p-36.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> ladakh </h3>
+                    <p>Ladakh is most famous for breathtaking landscapes, the crystal clear skies, the highest mountain passes, thrilling adventure activities, Buddhist Monasteries and festivals.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> 70.00<span>$100.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Packages section ends -->
+
+
+    <!-- Services section starts -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exlestias rem dolore
+                    delectus impedit iste? Consectetur, dolorolestiae earum saepe distinctio. Unde!</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Services section ends -->
+
+    <!-- Gallery section starts -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Gallery section ends -->
+
+    <!-- Reviews section starts -->
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+            <span>s</span>
+        </h1>
+
+        <div class=" swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic1.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit 
+                            Qui voluptas, soluta earum nobis quidem officia totam dolor 
+                            adipisci non tempore dolore quas nesciunt natus iure animi hic 
+                            et quia exercitationem.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic2.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit 
+                            Qui voluptas, soluta earum nobis quidem officia totam dolor 
+                            adipisci non tempore dolore quas nesciunt natus iure animi hic 
+                            et quia exercitationem.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic3.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit 
+                            Qui voluptas, soluta earum nobis quidem officia totam dolor 
+                            adipisci non tempore dolore quas nesciunt natus iure animi hic 
+                            et quia exercitationem.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/pic4.png" alt="">
+                        <h3>john deo</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit 
+                            Qui voluptas, soluta earum nobis quidem officia totam dolor 
+                            adipisci non tempore dolore quas nesciunt natus iure animi hic 
+                            et quia exercitationem.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews section ends -->
+
+    <!-- Contact section starts -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact-img.png" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+
+        </div>
+    </section>
+    <!-- Contact section ends -->
+
+
+    <!-- Brand section starts -->
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider"><img src="images/1.jpg" alt=""></div>
+                <div class="swiper-slider"><img src="images/2.jpg" alt=""></div>
+                <div class="swiper-slider"><img src="images/3.jpg" alt=""></div>
+                <div class="swiper-slider"><img src="images/4.jpg" alt=""></div>
+                <div class="swiper-slider"><img src="images/5.jpg" alt=""></div>
+                <div class="swiper-slider"><img src="images/6.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- Brand section ends -->
+
+    <!-- Footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea consequuntur 
+                    ipsum alias quod quo nisi, molestiae quos id voluptatem quasi iusto .</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">mumbai</a>
+                <a href="#">delhi</a>
+                <a href="#">hyderabad</a>
+                <a href="#">chennai</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">reviews</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+
+        <h1 class="credit">created by <span> Aiswarya Nanda </span> | all rights reserved!</h1>
+
+    </section>
+    <!-- Footer section ends -->
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
